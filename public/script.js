@@ -1,8 +1,8 @@
 const statusEl = document.getElementById('status');
 const form = document.getElementById('loginForm');
 
-const SUPABASE_URL = 'GANTI_DENGAN_SUPABASE_URL';
-const SUPABASE_PUBLISHABLE_KEY = 'GANTI_DENGAN_SUPABASE_PUBLISHABLE_KEY';
+const SUPABASE_URL = 'https://teeter-eight.vercel.app';
+const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_1kU_Emb-VHlsm1ct2jQlJw_XwDhe9Us';
 
 let supabaseClient = null;
 if (!SUPABASE_URL.startsWith('GANTI_') && !SUPABASE_PUBLISHABLE_KEY.startsWith('GANTI_')) {
