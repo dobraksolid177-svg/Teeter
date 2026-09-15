@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RD AM PREM Portal</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>RD AM PREM</h1>
+      <p>Portal login dan informasi membership RD. Bukan alat untuk mengaktifkan Alight Motion Premium.</p>
+      <form id="loginForm">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="nama@email.com" required>
+        <button type="submit">Kirim Magic Link</button>
+      </form>
+      <p id="status" class="status"></p>
+      <a href="https://alightmotion.com/" target="_blank" rel="noopener">Buka situs resmi Alight Motion</a>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
