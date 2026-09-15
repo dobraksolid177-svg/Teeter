@@ -1,7 +1,7 @@
 const statusEl = document.getElementById('status');
 const form = document.getElementById('loginForm');
 
-const SUPABASE_URL = 'https://teeter-eight.vercel.app';
+const SUPABASE_URL = 'https://ksmiaaaoxuescdhcuuyu.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_1kU_Emb-VHlsm1ct2jQlJw_XwDhe9Us';
 
 let supabaseClient = null;
